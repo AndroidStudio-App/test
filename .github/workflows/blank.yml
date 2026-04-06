@@ -25,5 +25,5 @@ jobs:
       - name: Run a one-line script
         run: | 
           git clone --depth 1 https://github.com/AndroidStudio-App/termux-packages.git
-          cp file.patch ~/termux-packages && cd termux-packages && git apply file.patch
+          cp file.patch termux-packages && cd termux-packages && git apply file.patch
           
